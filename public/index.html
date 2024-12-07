@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD App</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="dist/index.js" type="module"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>CRUD App</h1>
+    <form id="new-task-form">
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="new-task-title" 
+          placeholder="Enter a name..." 
+          autocomplete="off"
+          required>
+        <button type="submit" class="btn">Add</button>
+      </div>
+    </form>
+    <ul id="list" class="task-list"></ul>
+  </div>
+</body>
+</html>
